@@ -8,5 +8,7 @@ public class HelloController {
     @GetMapping("/")
     public String greet() {
         return "Welcome to musicapp";
+    }
 }
+
 
